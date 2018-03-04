@@ -1,0 +1,42 @@
+<?php
+$z[0]=Array("field","",114,133);
+$z[0][4]=array();
+$z[0][4]['name']="title";
+$z[1]=Array("global","",134,160);
+$z[1][4]=array();
+$z[1][4]['name']="cfg_webname";
+$z[2]=Array("global","",343,371);
+$z[2][4]=array();
+$z[2][4]['name']="cfg_soft_lang";
+$z[3]=Array("field","",658,680);
+$z[3][4]=array();
+$z[3][4]['name']="keywords";
+$z[4]=Array("field","",719,770);
+$z[4][4]=array();
+$z[4][4]['name']="description";
+$z[4][4]['function']="html2text(@me)";
+$z[5]=Array("include","",847,882);
+$z[5][4]=array();
+$z[5][4]['filename']="head.htm";
+$z[6]=Array("global","",1186,1218);
+$z[6][4]=array();
+$z[6][4]['name']="cfg_templets_skin";
+$z[7]=Array("global","",1822,1854);
+$z[7][4]=array();
+$z[7][4]['name']="cfg_templets_skin";
+$z[8]=Array("field","",2448,2467);
+$z[8][4]=array();
+$z[8][4]['name']="title";
+$z[9]=Array("channelartlist","\r\n			          			{dede:channel type='son' noself='yes'}\r\n			                    <div class=\"span2 col-xs-4\"> \r\n			                    	<a href=\"[field:typelink/]\" class=\"support_type_list normal\" title=\"平台动态\">[field:typename/]</a>\r\n			                    </div>\r\n			                    {/dede:channel}\r\n			                  	",2985,3377);
+$z[9][4]=array();
+$z[9][4]['typeid']="11,11";
+$z[10]=Array("list","\r\n					                <div class=\"rowFluid\"> \r\n					                  <a href=\"[field:arcurl/]\">\r\n					                  <div class=\"kzf-mod-new-li\">\r\n					                    <div class=\"span2\">\r\n					                      <div class=\"kzf-mod-new-time-box\">\r\n					                        <div class=\"kzf-mod-new-time-date\"><span>[field:pubdate function=\"MyDate('m',@me)\" /]</span>/<span>[field:pubdate function=\"MyDate('d',@me)\" /]</span></div>\r\n					                        <div class=\"kzf-mod-new-time-year\">[field:pubdate function=\"MyDate('Y',@me)\" /]</div>\r\n					                      </div>\r\n					                    </div>\r\n					                    <div class=\"span10\">\r\n					                      <div class=\"kzf-mod-new-box\">\r\n					                        <div class=\"kzf-mod-new-title\">[field:title/]</div>\r\n					                        <div class=\"kzf-mod-new-text\"> [field:description/]</div>\r\n					                      </div>\r\n					                    </div>\r\n					                  </div>\r\n					                  </a> \r\n					                </div>\r\n					                ",3702,4825);
+$z[10][4]=array();
+$z[10][4]['pagesize']="10";
+$z[11]=Array("type","[field:ID /]",5239,5274);
+$z[11][4]=array();
+$z[12]=Array("include","",7148,7185);
+$z[12][4]=array();
+$z[12][4]['filename']="footer.htm";
+
+?>

@@ -1,0 +1,5 @@
+[field:typeurl/]
+												 [field:typename/]
+												 [field:keywords/]
+												 [field:description/]
+												 [field:content/]
